@@ -1,0 +1,33 @@
+
+
+.wrapper {
+	margin-left: 250px;
+	margin-right: 250px;
+	margin-top: 70px;
+	margin-bottom: 20px;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: auto;
+	grid-template-rows: 90px 90px 80px 1px 44px 80px 80px 80px 80px;
+	background-color: #fbe997;
+}
+
+.top {
+	background-color: #fbe997;
+}
+
+.bottom {
+	background-color: #a1d3f4;
+}
+
+.half-moon-sun {
+	height:90px;
+	width:180px;
+	border-radius: 90px 90px 0 0;
+	background: #F26F07;
+	z-index: 1;
+	align-self: center;
+  justify-self: center;
+}
